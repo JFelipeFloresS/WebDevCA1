@@ -43,13 +43,18 @@ body {
     border-right: 1px solid #343a40;
 }
 
-table {
+.table {
     width: 100%;
     text-align: center;
 }
 
 th, td {
     width: 50%;
+}
+
+th {
+    border: 1px ridge snow;
+    border-radius: 15px 15px 0 0;
 }
 
 .eventr {
