@@ -19,7 +19,7 @@
 
         <div class="col-sm py-3">
             <form action="./search.php">
-                <input type="text" name="typecountry" id="typecountry" placeholder="Search country">
+                <input type="text" name="typecountry" id="typecountry" placeholder="Search country" required="required">
                 <input type="submit" value="Search" class="btn btn-primary" style="background-color: teal;">
             </form>
         </div>
