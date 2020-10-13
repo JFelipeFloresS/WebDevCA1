@@ -6,7 +6,7 @@
 <div class="container px-5 py-3 my-3">
     <div class="row">
         <form action="#" class="col-sm">
-            <input type="text" id="typecountry" name="typecountry" placeholder="search for country">
+            <input type="text" id="typecountry" name="typecountry" placeholder="search for country" required="required">
             <input type="submit" value="Check!" class="btn btn-secondary">
         </form>
         
