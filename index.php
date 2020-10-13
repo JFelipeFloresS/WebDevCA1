@@ -35,7 +35,7 @@
         <!-- search for country -->
         <div class="col-sm search-container" style="text-align: center;">
             <form action="./search.php" class="search-form">
-                <input type="text" name="typecountry" id="typecountry" placeholder="search country">
+                <input type="text" name="typecountry" id="typecountry" placeholder="search country" required="required">
                 <br><br>
                 <input type="submit" value="Search" class="btn btn-secondary list-btn">
             </form>
