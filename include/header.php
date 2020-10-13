@@ -3,7 +3,7 @@
 <head>
     <!-- gets current page to set which page is active for the navbar -->
     <?php 
-        $currentURL = substr($_SERVER['REQUEST_URI'], 10);
+        $currentURL = $_SERVER['REQUEST_URI'];
         $currpage = "- ";
         if($currentURL == "/" || strpos($currentURL, "/index.php") !== false){$currpage .= "Home";}
         else if(strpos($currentURL, "/countrylist.php") !== false) {$currpage .= "Country List";}
