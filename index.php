@@ -1,4 +1,7 @@
-<?php include('./include/header.php'); ?>
+<?php
+    $currPage = "- Home";
+    include('./include/header.php'); 
+?>
 
 <!-- main container -->
 <div class="container px-5 py-3 my-3">
