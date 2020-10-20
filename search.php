@@ -1,4 +1,5 @@
 <?php
+    $currPage = "- Search Country";
     include('./include/header.php');
     require './require/countriesarray.php';
 ?>
