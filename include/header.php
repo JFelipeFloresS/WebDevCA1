@@ -4,13 +4,9 @@
     <!-- gets current page to set which page is active for the navbar -->
     <?php 
         $currentURL = $_SERVER['REQUEST_URI'];
-        $currpage = "- ";
-        if($currentURL == "/" || strpos($currentURL, "/index.php") !== false){$currpage .= "Home";}
-        else if(strpos($currentURL, "/countrylist.php") !== false) {$currpage .= "Country List";}
-        else if(strpos($currentURL, "/search.php") !== false) {$currpage .= "Search Country";}
     ?>
 
-    <title>PHP Project 1 <?php echo $currpage; ?></title>
+    <title>PHP Project 1 <?php echo $currPage; ?></title>
 
     <!-- meta tags -->
     <meta charset="utf-8">
